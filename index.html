@@ -1,6 +1,6 @@
-<html><head><base href="https://www.%E4%BF%A1%E4%BB%B0%E5%9C%88.com/%E5%B8%96%E5%AD%90%E5%8F%91%E5%B8%83%E5%87%BA%E5%8E%BB%E4%BE%A7%E8%BE%B9%E6%A0%8F%E4%B8%8D%E8%B5%B7%E4%BD%9C%E7%94%A8">
+<html><head><base href="https://www.%E4%BF%A1%E4%BB%B0%E5%9C%88.com/%E5%8A%A0%E5%A2%9E%E8%AF%AD%E9%9F%B3%E8%81%8A%E5%A4%A9%E5%8A%9F%E8%83%BD%E9%9F%B3%E9%A2%91%E6%9C%AC%E5%88%86%E5%8A%9F%E8%83%BD%E9%9F%B3%E9%A2%91%E8%A7%86%E9%A2%91%E4%B8%8A%E4%BC%A0%E5%8F%8A%E6%92%AD%E6%94%BE%E5%8A%9F%E8%83%BD%E5%A2%9E%E5%8A%A0%E5%A4%9A%E4%BA%BA%E8%81%8A%E5%A4%A9%E5%8A%9F%E8%83%BD">
 <meta charset="utf-8">
-<title>信仰圈 - 系统维护</title>
+<title>信仰圈 - 多人聊天功能上线</title>
 <style>
 body {
   font-family: "Microsoft YaHei", Arial, sans-serif;
@@ -8,109 +8,149 @@ body {
   margin: 0;
   padding: 0;
   color: #1c1e21;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
-.头部 {
+.header {
   background-color: #4267B2;
   color: white;
   padding: 10px 0;
   text-align: center;
 }
-.主要内容 {
-  display: flex;
-  flex-grow: 1;
-  padding: 20px;
-}
-.侧边栏 {
-  width: 250px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 20px;
-  margin-right: 20px;
-}
-.侧边栏选项 {
-  display: block;
-  padding: 10px;
-  margin-bottom: 5px;
-  border-radius: 5px;
-  color: #1877f2;
-  text-decoration: none;
-}
-.侧边栏选项:hover {
-  background-color: #e7f3ff;
-}
-.右侧内容 {
-  flex-grow: 1;
+.main-content {
+  max-width: 800px;
+  margin: 20px auto;
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   padding: 20px;
 }
-.维护消息 {
-  text-align: center;
-  color: #721c24;
-  background-color: #f8d7da;
-  border: 1px solid #f5c6cb;
-  border-radius: 5px;
-  padding: 20px;
+.feature-card {
+  border: 1px solid #dddfe2;
+  border-radius: 8px;
+  padding: 15px;
   margin-bottom: 20px;
 }
-.按钮 {
+.feature-title {
+  color: #4267B2;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.feature-description {
+  color: #606770;
+  margin-bottom: 15px;
+}
+.demo-area {
+  background-color: #f7f7f7;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.button {
   display: inline-block;
   background-color: #4267B2;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 8px 16px;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
-  margin-top: 20px;
+  margin-right: 10px;
+  cursor: pointer;
 }
-.按钮:hover {
+.button:hover {
   background-color: #365899;
+}
+.release-time {
+  text-align: right;
+  color: #606770;
+  font-style: italic;
+}
+.multi-chat-demo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.chat-user {
+  background-color: #e9ebee;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #4267B2;
 }
 </style>
 </head>
 <body>
-  <div class="头部">
+  <div class="header">
     <h1>信仰圈</h1>
   </div>
   
-  <div class="主要内容">
-    <div class="侧边栏">
-      <a href="#" class="侧边栏选项">🏠 主页</a>
-      <a href="#" class="侧边栏选项">📖 圣经学习</a>
-      <a href="#" class="侧边栏选项">🙏 祷告请求</a>
-      <a href="#" class="侧边栏选项">💖 见证分享</a>
-      <a href="#" class="侧边栏选项">🎵 赞美诗歌</a>
-      <a href="#" class="侧边栏选项">📅 教会活动</a>
-      <a href="#" class="侧边栏选项">📞 联系我们</a>
+  <div class="main-content">
+    <h2>🎉 多人聊天功能正式上线 🎉</h2>
+    <p>亲爱的弟兄姐妹们，我们很高兴地宣布，为了让我们的交流更加丰富多彩，我们新增了多人聊天功能：</p>
+    
+    <div class="feature-card">
+      <div class="feature-title">👥 多人聊天功能</div>
+      <div class="feature-description">现在你可以创建或加入多人聊天室，与更多的信徒一起交流、学习和祷告。无论是小组讨论还是大型在线聚会，都变得更加便捷！</div>
+      <div class="demo-area">
+        <button class="button">创建聊天室</button>
+        <button class="button">加入聊天室</button>
+        <div class="multi-chat-demo">
+          <div class="chat-user">张</div>
+          <div class="chat-user">李</div>
+          <div class="chat-user">王</div>
+          <div class="chat-user">赵</div>
+          <div class="chat-user">+</div>
+        </div>
+      </div>
     </div>
     
-    <div class="右侧内容">
-      <div class="维护消息">
-        <h2>🛠️ 系统维护中 🛠️</h2>
-        <p>亲爱的弟兄姐妹，</p>
-        <p>我们注意到了侧边栏功能出现了一些问题。我们的技术团队正在努力修复这个问题，以确保为您提供最佳的使用体验。</p>
-        <p>在此期间，您仍然可以浏览和发布内容，但部分导航功能可能暂时无法使用。</p>
-        <p>我们深感歉意，并感谢您的耐心和理解。</p>
-        <p>"我的恩典够你用的，因为我的能力是在人的软弱上显得完全。" - 哥林多后书 12:9</p>
+    <p>除了新增的多人聊天功能，我们之前推出的功能也在不断完善中：</p>
+    
+    <div class="feature-card">
+      <div class="feature-title">🎙️ 语音聊天功能</div>
+      <div class="feature-description">现在支持多人语音聊天，可以进行小组祷告或在线查经。</div>
+      <div class="demo-area">
+        <button class="button">开始语音聊天</button>
+        <button class="button">加入祷告室</button>
       </div>
-      
-      <div style="text-align: center;">
-        <a href="https://www.信仰圈.com/首页" class="按钮">返回首页</a>
+    </div>
+    
+    <div class="feature-card">
+      <div class="feature-title">🎵 音频本分功能</div>
+      <div class="feature-description">新增了背景音乐选择，让你的音频本分更加生动。</div>
+      <div class="demo-area">
+        <button class="button">录制音频</button>
+        <button class="button">选择背景音乐</button>
       </div>
+    </div>
+    
+    <div class="feature-card">
+      <div class="feature-title">📤 音频视频上传及播放功能</div>
+      <div class="feature-description">现在支持直接从手机或电脑摄像头录制视频并上传。</div>
+      <div class="demo-area">
+        <button class="button">上传文件</button>
+        <button class="button">录制视频</button>
+      </div>
+    </div>
+    
+    <p>我们相信这些新功能将大大增进我们在线上的团契生活。让我们一起在信仰圈中建立更紧密的属灵关系，彼此扶持，共同成长。</p>
+    
+    <p>"你们要彼此相爱，像我爱你们一样，这就是我的命令。" - 约翰福音 15:12</p>
+    
+    <div class="release-time">
+      发布于：2023年6月20日
     </div>
   </div>
 
   <script>
-    document.querySelectorAll('.侧边栏选项, .按钮').forEach(链接 => {
-      链接.addEventListener('click', function(e) {
+    document.querySelectorAll('.button').forEach(button => {
+      button.addEventListener('click', function(e) {
         e.preventDefault();
-        alert('抱歉，由于系统维护，此功能暂时无法使用。请稍后再试。');
+        alert(`你点击了"${this.textContent}"按钮。在实际应用中，这里会启动相应的功能。`);
       });
     });
   </script>
