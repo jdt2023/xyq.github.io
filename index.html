@@ -1,0 +1,117 @@
+<html><head><base href="https://www.%E4%BF%A1%E4%BB%B0%E5%9C%88.com/%E5%B8%96%E5%AD%90%E5%8F%91%E5%B8%83%E5%87%BA%E5%8E%BB%E4%BE%A7%E8%BE%B9%E6%A0%8F%E4%B8%8D%E8%B5%B7%E4%BD%9C%E7%94%A8">
+<meta charset="utf-8">
+<title>信仰圈 - 系统维护</title>
+<style>
+body {
+  font-family: "Microsoft YaHei", Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  color: #1c1e21;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.头部 {
+  background-color: #4267B2;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+.主要内容 {
+  display: flex;
+  flex-grow: 1;
+  padding: 20px;
+}
+.侧边栏 {
+  width: 250px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-right: 20px;
+}
+.侧边栏选项 {
+  display: block;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  color: #1877f2;
+  text-decoration: none;
+}
+.侧边栏选项:hover {
+  background-color: #e7f3ff;
+}
+.右侧内容 {
+  flex-grow: 1;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+.维护消息 {
+  text-align: center;
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.按钮 {
+  display: inline-block;
+  background-color: #4267B2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.按钮:hover {
+  background-color: #365899;
+}
+</style>
+</head>
+<body>
+  <div class="头部">
+    <h1>信仰圈</h1>
+  </div>
+  
+  <div class="主要内容">
+    <div class="侧边栏">
+      <a href="#" class="侧边栏选项">🏠 主页</a>
+      <a href="#" class="侧边栏选项">📖 圣经学习</a>
+      <a href="#" class="侧边栏选项">🙏 祷告请求</a>
+      <a href="#" class="侧边栏选项">💖 见证分享</a>
+      <a href="#" class="侧边栏选项">🎵 赞美诗歌</a>
+      <a href="#" class="侧边栏选项">📅 教会活动</a>
+      <a href="#" class="侧边栏选项">📞 联系我们</a>
+    </div>
+    
+    <div class="右侧内容">
+      <div class="维护消息">
+        <h2>🛠️ 系统维护中 🛠️</h2>
+        <p>亲爱的弟兄姐妹，</p>
+        <p>我们注意到了侧边栏功能出现了一些问题。我们的技术团队正在努力修复这个问题，以确保为您提供最佳的使用体验。</p>
+        <p>在此期间，您仍然可以浏览和发布内容，但部分导航功能可能暂时无法使用。</p>
+        <p>我们深感歉意，并感谢您的耐心和理解。</p>
+        <p>"我的恩典够你用的，因为我的能力是在人的软弱上显得完全。" - 哥林多后书 12:9</p>
+      </div>
+      
+      <div style="text-align: center;">
+        <a href="https://www.信仰圈.com/首页" class="按钮">返回首页</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.querySelectorAll('.侧边栏选项, .按钮').forEach(链接 => {
+      链接.addEventListener('click', function(e) {
+        e.preventDefault();
+        alert('抱歉，由于系统维护，此功能暂时无法使用。请稍后再试。');
+      });
+    });
+  </script>
+</body></html>
